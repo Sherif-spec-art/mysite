@@ -67,3 +67,71 @@ rgba(0,0,0,0.1);
     text-decoration: underline;
 }
 
+.slider-image {
+     height: 450px;
+     object-fit: cover;
+}
+
+#mosqueSlider {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.carousel-caption p {
+    color: white;
+    margin-bottom: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 30px;
+    z-index: 1000;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+
+    .slider-image {
+       height: 250px;
+}
+
+    .carousel-caption h3 {
+       font-size: 20px;
+}
+
+    .carousel-caption p {
+       font-size: 14px;
+}
+
+    h1 {
+        font-size: 30px;
+}
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar .nav-link {
+      transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+     color: yellow !important;
+}
+
