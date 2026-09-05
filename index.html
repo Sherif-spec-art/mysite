@@ -4,14 +4,19 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Al-Noor Community Mosque</title>
+   <link rel="icon" type="image/jpeg" href="images/mosque.jpg">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
 <Link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootsrap-icons@1.11.3/font/bootsrap-icons.min.css">
 </head>
-<body>
+<body id="top">
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
    <div class="container">
-    <a class="navbar-brand" href="#">Al-Noor Mosque</a>
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/mosque.jpg" width="40" height="40" class="rounded-circle me-2" alt="Al-Noor Mosque Logo">
+                                               Al-Noor Community Mosque
+                                                    </a>
 
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
        <span class="navbar-toggler-icon"></span>
@@ -38,7 +43,134 @@
 
 <p class="lead">
     May peace, mercy and blessings of Allah be upon you.
-</p>
+  </p>
+</div>
+
+<!-- Mosque Image Slider -->
+<div id="mosqueSlider" class="carousel slide container mt-4" data-bs-ride="carousel">
+
+   <div class="carousel-indicator">
+       <button type="button" data-bs-target="#mosqueSlider" data-bs-slide-to="0" class="active"></button>
+           <button type="button" data-bs-target="#mosqueSlider" data-bs-slide-to="1"></button>
+                         <button type="button" data-bs-target="#mosqueSlider" data-bs-slide-to="2"></button>
+     </div>
+
+<div class="carousel-inner">
+
+   <div class="carousel-item active">
+      <img src="images/mosque.jpg" class="d-block w-100 slider-image" alt="Al-Noor Mosque">
+
+    <div class="carousel-caption">
+       <h3>Al-Noor Community Mosque</h3>
+       <p>A place of worship, peace and community. </p>
+           </div>
+         </div>
+     
+        <div class="carousel-item">
+           <img src="images/3rd-mosque.jpg" class="d-block w-100 slider-image" alt="Beautiful Mosque">
+
+        <div class="carousel-caption">
+          <h3>Our Mosque</h3>
+           <p>Serving our community with faith and compassion.</p>
+           </div>
+               </div>
+
+
+               <div class="carousel-item">
+               <img src="images/4th-mosque.jpg" class="d-block w-100 slider-image" alt="Mosque Community">
+             <div class="carousel-caption">
+               <h3>Community Together</h3>
+               <p>Building unity through faith and service. </p>
+                   </div>
+                  </div>
+
+           <div class="carousel-item">
+              <img src="images/2nd mosque.jpg" class="d-block w-100 slider-image" alt="Mosque">
+       <div class="carousel-caption">
+         <h3>Faith and Community</h3>
+         <p>Everyone is welcome at Al-Noor Community Mosque.</P>
+             </div>
+
+</div>
+
+   <button class="carousel-control-prev" type="button" data-bs-target="#mosqueSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+               </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#mosqueSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span></button>
+            </div>
+
+   <div class="container mt-4">
+
+     <div class="alert alert-success text-center shadow" role="alert">
+
+      <h5 class="mb-2"> 📢Latest Announcement</h5>
+      
+         <p class="mb-0"> Join us every Friday for Jumu'ah prayer and the weekly khutbah. </p>
+         </div>
+     </div>
+
+  <div class="container mt-5">
+
+    <h2 class="text-center text-success mb-4">Our Services</h2>
+   
+    <div class="row">
+    <div class="col-md-3 mb-4">
+        <div class="card text-center h-100 shadow">
+         <div class="card-body">
+      <h4>🕌</h4>
+      <h5>Daily Prayers</h5>
+      <p>Join us for the five daily congregational prayers. </p>
+          </div>
+       </div>
+     </div>
+
+  <div class="col-md-3 mb-4">
+     <div class="card text-center h-100 shadow">
+        <div class="card-body">
+           <h4>📖</h4>
+           <h5>Qur'an Classes</h5>
+           <p>Learn Qur'an reading and Islamic teachings. </p>
+              </div>
+        </div>
+    </div>
+
+     <div class="col-md-3 mb-4">
+        <div class="card text-center h-100 shadow">
+          <div class="card-body">
+             <h4>🎙️</h4>
+             <h5>Islamic Lectures</h5>
+             <p>Attend lectures and programs that strenghen our faith. </p>
+            </div>
+        </div>
+    </div>
+
+ <div class="col-md-3 mb-4">
+        <div class="card text-center h-100 shadow">
+          <div class="card-body">
+             <h4>🤝</h4>
+             <h5>Community Support</h5>
+             <p>Supporting and bringing our community together. </p>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
+
+<div class="container mt-5">
+
+   <div class="bg-success text-white text-center p-5 rounded shadow">
+       <h2>Join Our Community</h2>
+
+<p class="lead">
+     Be part of Al-Noor Community Mosque. Join us in worship, learning and serving our community. </p>
+
+  <a href="contact.html" class="btn btn-light btn-lg"> Contact Us</a>
+        </div>
+  </div>
+</div>
+            
 
 <div class="m-3">
 
@@ -297,6 +429,9 @@ WhatsApp
 
 
 </footer>
+<a href="#top" class="btn btn-success back-to-top">
+                   Back to Top
+             </a>
 
 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
